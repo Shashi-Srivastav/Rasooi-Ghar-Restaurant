@@ -1,8 +1,64 @@
 
 ![Logo](https://raw.githubusercontent.com/Shashi-Srivastav/Rasooi-Ghar-Restaurant/master/src/assets/img/Rasooi_icon.png)
 # Rasooi Ghar Restaurant
-
 Developed a Swiggy clone named 'Rasooi Ghar' with features like item addition in cart, efficient state management, form handling, and dynamic routing. This project demonstrates my in-depth knowledge of React hooks, custom hooks, modern bundling techniques, high-order components, dev tools, suspense components, React lifecycle, function-based components, class-based components, Jest, React Testing Library, unit test principles, and React-Redux actions and reducers.
+
+## File Structure
+````
+📦 Rasooi Ghar Restaurant
+├─ .dockerignore
+├─ .gitignore
+├─ Dockerfile
+├─ README.md
+├─ index.css
+├─ index.html
+├─ package-lock.json
+├─ package.json
+└─ src
+   ├─ app.js
+   ├─ assets
+   │  └─ img
+   │     ├─ Burger_Img.png
+   │     ├─ Cart-empty.png
+   │     ├─ Offline.png
+   │     ├─ Payment_Success.mp3
+   │     ├─ Rasooi.png
+   │     └─ Rasooi_icon.png
+   ├─ components
+   │  ├─ Body.js
+   │  ├─ Cart.js
+   │  ├─ CartInfo.js
+   │  ├─ Error.js
+   │  ├─ Filter.js
+   │  ├─ Footer.js
+   │  ├─ Header.js
+   │  ├─ Login.js
+   │  ├─ RestaurantCard.js
+   │  ├─ RestaurantCollections.js
+   │  ├─ RestaurantCollectionsInfo.js
+   │  ├─ RestaurantMenu.js
+   │  ├─ RestaurantMenuInfo.js
+   │  ├─ RestaurantMenuOffer.js
+   │  ├─ RestaurantMenuProfile.js
+   │  ├─ Search.js
+   │  ├─ SearchBox.js
+   │  ├─ Section.js
+   │  ├─ Shimmer.js
+   │  └─ Title.js
+   ├─ constant.js
+   └─ utils
+      ├─ CityContext.js
+      ├─ LocationContext.js
+      ├─ UserContext.js
+      ├─ cartSlice.js
+      ├─ helper.js
+      ├─ store.js
+      ├─ useAllRestaurants.js
+      ├─ useCollections.js
+      ├─ useOnline.js
+      ├─ useRestaurant.js
+      └─ useSearch.js
+````
 
 <p align="center">
   <b style="color: blue;  ">Visitor count</b>
