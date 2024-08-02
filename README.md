@@ -59,8 +59,16 @@ Start the server
 ```bash
   npm run start
 ```
+## Using Docker
 
-
+Build Command
+```
+docker build -t rasooi-ghar-restaurant
+```
+Run Command
+```
+docker run -p 1234:1234 rasooi-ghar-restaurant
+```
 ## Running Tests
 
 To run tests, run the following command
